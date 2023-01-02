@@ -1,0 +1,33 @@
+div[role=feed] > article {
+  margin: 3px 0px; 
+  border-bottom: 0.8px solid rgba(128, 128, 128, 0.767);
+}
+
+.status__prepend {
+  margin-bottom: 0px !important;
+  margin-left: 25px !important;
+}
+
+.display-name {
+  display: flex !important;
+  flex-direction: row;
+}
+.display-name > bdi {
+  margin-right: 4px;
+}
+
+.display-name__account::after {
+  content: " ·";
+}
+.display-name__account {
+  margin-right: 4px;
+  color: #606984;
+}
+
+.status__info__account .status__display-name {
+    display: inline !important;
+}
+
+.status__action-bar {
+  justify-content: space-around;
+}
